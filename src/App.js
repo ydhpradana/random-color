@@ -1,28 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import './index.css';
 import "antd/dist/antd.css";
 import {
   Table,
-  ConfigProvider,
   Radio,
   Layout,
-  Button,
-  Modal,
   Select,
   Form,
-  Checkbox,
-  InputNumber,
-  DatePicker,
-  Upload,
-  Tabs,
-  Row,
-  Col,
-  Input,
-  TabPane,
-  message,
-  Tooltip,
 } from 'antd';
 
 function App() {
